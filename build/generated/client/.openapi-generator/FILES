@@ -1,0 +1,15 @@
+.openapi-generator-ignore
+README.md
+build.gradle.kts
+pom.xml
+settings.gradle
+src/main/kotlin/org/openapitools/configuration/ApiKeyRequestInterceptor.kt
+src/main/kotlin/org/openapitools/configuration/ClientConfiguration.kt
+src/main/kotlin/ru/tbank/education/school/lesson7/seminar/client/api/OrdersApi.kt
+src/main/kotlin/ru/tbank/education/school/lesson7/seminar/client/api/OrdersApiClient.kt
+src/main/kotlin/ru/tbank/education/school/lesson7/seminar/client/model/ApiError.kt
+src/main/kotlin/ru/tbank/education/school/lesson7/seminar/client/model/CreateOrderRequest.kt
+src/main/kotlin/ru/tbank/education/school/lesson7/seminar/client/model/Order.kt
+src/main/kotlin/ru/tbank/education/school/lesson7/seminar/client/model/OrderItem.kt
+src/main/kotlin/ru/tbank/education/school/lesson7/seminar/client/model/OrderItemRequest.kt
+src/main/kotlin/ru/tbank/education/school/lesson7/seminar/client/model/OrderStatus.kt

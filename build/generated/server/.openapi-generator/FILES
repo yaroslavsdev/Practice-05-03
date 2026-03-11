@@ -1,0 +1,15 @@
+.openapi-generator-ignore
+README.md
+build.gradle.kts
+pom.xml
+settings.gradle
+src/main/kotlin/org/openapitools/SpringDocConfiguration.kt
+src/main/kotlin/ru/tbank/education/school/lesson7/seminar/api/ApiUtil.kt
+src/main/kotlin/ru/tbank/education/school/lesson7/seminar/api/Exceptions.kt
+src/main/kotlin/ru/tbank/education/school/lesson7/seminar/api/OrdersApi.kt
+src/main/kotlin/ru/tbank/education/school/lesson7/seminar/model/ApiError.kt
+src/main/kotlin/ru/tbank/education/school/lesson7/seminar/model/CreateOrderRequest.kt
+src/main/kotlin/ru/tbank/education/school/lesson7/seminar/model/Order.kt
+src/main/kotlin/ru/tbank/education/school/lesson7/seminar/model/OrderItem.kt
+src/main/kotlin/ru/tbank/education/school/lesson7/seminar/model/OrderItemRequest.kt
+src/main/kotlin/ru/tbank/education/school/lesson7/seminar/model/OrderStatus.kt
