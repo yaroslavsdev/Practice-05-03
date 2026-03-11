@@ -34,4 +34,28 @@ class OrderControllerV2(
     fun create(@Valid @RequestBody request: CreateOrderRequest): Order =
         orderService.create(request)
 
+    @GetMapping("/{id}")
+    @Operation(summary = "Get order by id")
+    fun getById(
+        @PathVariable @Positive id: Long
+    ): Order =
+        orderService.getById(id)
+
+    @PutMapping("/{id}")
+    @Operation(summary = "Update order")
+    fun update(
+        @PathVariable @Positive id: Long,
+        @Valid @RequestBody request: CreateOrderRequest
+    ): Order =
+        orderService.update(id, request)
+
+    @DeleteMapping("/{id}")
+    @Operation(summary = "Delete order")
+    @ResponseStatus(HttpStatus.NO_CONTENT)
+    fun delete(
+        @PathVariable @Positive id: Long
+    ) {
+        orderService.delete(id)
+    }
+
 }
